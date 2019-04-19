@@ -29,7 +29,7 @@
 * $ git add .        【说明：用命令git add .告诉Git，把本目录下所有文件添加到仓库】
 * $ git commit -m "对于本次提交的说明"  【说明：对于本次提交的说明】
 * $ git push -u origin master  【说明：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码】
-
+* $  git pull or
 
 #### (1)初始化本地库
 ![](assets/37e39571.png)

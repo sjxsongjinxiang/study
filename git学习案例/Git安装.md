@@ -28,9 +28,9 @@
 * $ git add 文件名称   【说明：用命令git add 告诉Git，把文件添加到仓库中】
 * $ git add .        【说明：用命令git add .告诉Git，把本目录下所有文件添加到仓库】
 * $ git commit -m "对于本次提交的说明"  【说明：对于本次提交的说明】
-* $ git push -u origin master  【说明：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码】
-* $  git pull or
-
+* $ git push origin master  【说明：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码】
+* $ git pull origin master  【说明：表示将远程origin主机的master分支拉取过来和本地的当前分支进行合并。】
+### 3.知道了命令，现在操作起来吧
 #### (1)初始化本地库
 ![](assets/37e39571.png)
 #### (2)接下来输入如下代码（关键步骤），把github上面的仓库克隆到本地。

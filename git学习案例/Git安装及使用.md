@@ -15,7 +15,7 @@
 ![填写信息如下](assets/76b23e7c.png)
 ** <font color="red">3.已成功创建仓库</font> **
 ![创建成功后的样子](assets/6be66a48.png)
-** <font color="red">4.点击Clone or dowload会出现一个地址，copy这个地址备用。</font>**
+** <font color="red">4.点击Clone or download会出现一个地址，copy这个地址备用。</font>**
 ![copy这个地址备用](assets/68da566d.png)
 ## 三、接下来就到本地操作了,在本地安装git客户端
 下载windows操作系统的git客户端网址：https://gitforwindows.org/
@@ -25,6 +25,7 @@
 接下来就到本地操作了，首先右键你的项目，如果你之前安装git成功的话，右键会出现两个新选项，分别为Git Gui Here,Git Bash Here,这里我们选择Git Bash Here，进入如下界面，gitStudy即为我的项目名。
 ![](assets/92823b2f.png)
 ### 2.现在来学习一下操作的命令
+* git remote add origin https://github.com/sjxsongjinxiang/study.git   【说明：将本地的仓库关联到github上 其中“https://github.com/sjxsongjinxiang/study.git”是git仓库地址】
 * $ git add 文件名称   【说明：用命令git add 告诉Git，把文件添加到仓库中】
 * $ git add .        【说明：用命令git add .告诉Git，把本目录下所有文件添加到仓库】
 * $ git commit -m "对于本次提交的说明"  【说明：对于本次提交的说明】
@@ -35,7 +36,8 @@
 ![](assets/37e39571.png)
 #### (2)接下来输入如下代码（关键步骤），把github上面的仓库克隆到本地。
 git clone https://github.com/sjxsongjinxiang/study.git ，其中（https://github.com/sjxsongjinxiang/study.git 替换成你之前复制的地址）
-![](assets/1334f030.png)
-![](assets/d72de99c.png)
-![](assets/a278f23d.png)
-![](assets/6970a29f.png)
+### (3)上传代码
+$ git add .  【说明：上传整个目录的文件】
+$ git commit -m "第三次提交"  【说明：对于本次提交的说明】
+$ git push origin master 【说明：把本地仓库push到github上面】
+![](assets/d35797cc.png)
